@@ -1,0 +1,432 @@
+﻿.landingpage
+{
+    width: 100%;
+    padding: 0 0 45px !important;
+    background: url(../images/landingbg-top.png)repeat top center;
+    padding-top: 5px;
+    display: block;
+    margin-top: 120px;
+    float: left;
+}
+.landing-wrap {
+  width: 90%;
+  margin: 0 auto;
+}
+.profileheader
+{
+    text-align: center;
+      width: 75%;
+}
+
+.profileheader ul
+{
+     
+}
+
+.profileheader li
+{
+      display: inline-block;
+       padding-left:10px;
+}
+
+.profilepic
+{
+      width: 80px;
+  border-radius: 50%;
+}
+
+.profileheader span
+{
+     color: #0060b6;
+     font-size:20px;
+     font-weight:500;
+}
+.acitivity
+{
+    margin-top:20px;
+	width:68%;
+    float:left;
+}
+.activity-social
+{
+ float: left; width: 50px;
+}
+.acitivity-div
+{
+    width:95%;
+    display: block;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 3px 1px #31b03a;
+    /*border:1px solid #31b03a;*/
+    margin-left:60px;
+}
+.acitivity-info
+{
+    background: #fff;
+      /*border-top: 2px solid #31b03a;*/
+    border-radius: 5px;
+    display: block;
+}
+.acitivity-info:hover
+{
+        /*border-top: 2px solid #0060b6;*/
+}
+
+.acitivity-left
+{
+  float: left;
+  margin: 20px;
+  width: 480px;
+}
+
+.acitivity-left ul
+{
+    margin-bottom: 20px;
+}
+.acitivity-left li
+{
+      display: inline-block;
+       /*vertical-align:top;*/
+}
+
+.acitivity-left h3
+{
+      color:#000;
+      font-size:16px;
+      font-weight:500;
+        margin-top: 0px;
+  margin-bottom: 0px
+}
+
+.acitivity-left span
+{
+      color:#B0A6A6;
+      font-size:14px;
+      font-weight:400;
+      margin-top:10px;
+}
+
+/*********************/
+.acitivity-left-only
+{
+  float: left;
+  margin: 20px;
+  width: 480px;
+
+  display: table;
+  height: 150px;
+  text-align: center;
+}
+
+.acitivity-left-only ul
+{
+    margin-bottom: 20px;
+    display: table-cell;
+  vertical-align: middle;
+}
+.acitivity-left-only li
+{
+      display: inline-block;
+       /*vertical-align:top;*/
+}
+
+.acitivity-left-only h3
+{
+      color:#000;
+      font-size:16px;
+      font-weight:500;
+        margin-top: 0px;
+  margin-bottom: 0px
+}
+
+.acitivity-left-only span
+{
+      color:#B0A6A6;
+      font-size:14px;
+      font-weight:400;
+      margin-top:10px;
+}
+
+/***********************/
+.acitivity-right
+{
+   display: block;
+  position: inherit;
+  width: 205px;
+  float: left;
+  min-height: 100px;
+  background: none;
+  text-align: center;
+    margin-top: 20px;
+  margin-left: 20px;
+  vertical-align:middle;
+}
+.acitivity-right span
+{
+    color:#000;
+    font-size:16px;
+    font-weight:500;
+    margin-left:10px;
+}
+.acitivity-right li
+{
+    text-align:center;
+       display: inline-block;
+       /*padding-left:10px;*/
+       vertical-align:top;
+       /*width:100%;*/
+       margin-bottom:5px;
+}
+.acitivity-right h5
+{
+    /*margin-top:23px;*/
+}
+.statuswrap
+{
+  cursor: pointer;
+  width: 200px;
+  text-align: center;
+  font-size: 12px;
+  padding: 10px;
+  margin-left:5px;
+}
+
+.activity-action
+{
+    width:100%;
+    display: block;
+    border: 1px solid #ddd;
+    padding:5px;
+    text-align:center;
+}
+
+.activity-action-hideborder
+{
+    width:100%;
+    display: block;
+    padding:5px;
+    text-align:center;
+}
+
+.activity-action-imgdisplay
+{
+    display:block;
+}
+.activity-action-imghide
+{
+   display:none;
+}
+.activity-action-imgleft
+{
+    width:200px;float:left;
+}
+.activity-action-imgcenter
+{
+    width:200px;
+}
+.activity-action-text
+{
+    float:right;width:250px;text-align:justify;
+}
+
+.activity-offers
+{
+    margin:10px;
+ float: right; width: 25%;
+}
+.activity-TotalReward
+{
+    width:300px;
+    border:2px solid #ddd;
+    margin-top:5px;
+  padding:20px;
+    text-align:center;
+    position:fixed;
+      z-index: 998;
+      background:#31b03a;
+}
+.activity-TotalReward span
+{
+    font-size:20px;
+    color:#fff;
+    font-weight:500;
+}
+.activity-TotalReward h1
+{
+    color:#fff;
+}
+.activity-offerlist
+{
+    width:300px;
+    border:2px solid #ddd;
+    margin-top:160px;
+  padding:20px;
+    text-align:center;
+    /*position:fixed;*/
+}
+.activity-offerlist span
+{
+    font-size:16px;
+    color:#0060b6;
+    font-weight:500;
+}
+
+.activity-offerlist ul
+{
+   display:inline-block;
+   margin-top:10px;
+    text-align:left;
+}
+
+.activity-offerlist li
+{
+   display:inline-block;
+   margin-left:5px;
+}
+/********Reward Points********/
+.size { position:relative ;cursor: pointer;margin-top: 5px;margin-left:5px;}
+.size>ul.list { 
+    display:none;
+    font-size:12px;
+	position:absolute; z-index:999;
+	width:220px;
+    list-style:none;
+	background:#0060b6; color:#fff;
+	-moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;
+	-moz-box-shadow:0 0 5px #999; -webkit-box-shadow:0 0 5px #999; box-shadow:0 0 5px #999
+}
+.size>ul.list li {
+    padding:10px;
+	/*border-bottom: solid 1px #ccc;*/
+}
+.size>ul.list li:last-child { border:none ;}
+
+    .size span
+    {
+        color: #000;
+        font-weight:500;
+    }
+
+    /*******Mobile View*******/
+@media (max-width: 1000px)
+{
+    .landing-wrap
+    {
+      width:100% !important;
+    }
+
+    .size > ul.list
+    {
+        margin-left:-180px;
+    }
+
+    .profileheader
+    {
+        width:100%;
+        text-align:center;
+    }
+    .acitivity
+    {
+        width: 100%;
+        margin-top: 180px;
+    }
+    .acitivity-div
+    {
+        width: 80%;
+          margin-left: 18%;
+    }
+    .acitivity-left
+    {
+        width:100%;
+        margin:5px;
+        text-align: center;
+    }
+       .acitivity-left-only
+    {
+        width:100%;
+        margin:5px;
+        text-align: center;
+         height: 50px;
+    }
+    .acitivity-right
+    {
+         text-align: center;
+         width:100%;
+         margin-left:0px;
+         margin-top:0px;
+    }
+    .acitivity-right li
+    {
+        display:list-item;
+    }
+    .statuswrap
+    {
+        width:100%;
+        margin:0px;
+    }
+    .activity-action
+    {
+         width: 93%;
+         margin: 2%;
+    }
+    .activity-action-text
+    {
+        width:100%;
+    }
+    .activity-action-imgleft 
+    {
+        float:none;
+    }
+    .activity-offers
+    {
+        float:none;
+          width: 100%;
+          margin:0px;
+    }
+    .activity-TotalReward
+    {
+        position:absolute;
+          width: 100%;
+    }
+    .activity-offerlist
+    {
+        margin-top:10px;
+          width: 100%;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1295px)
+{
+    .acitivity-left
+    {
+         width: 90%;
+         margin: 5%;
+            text-align: center;
+    }
+     .acitivity-left-only
+    {
+         width: 90%;
+         margin: 5%;
+         height:0px;
+    }
+     .acitivity-right
+    {
+         text-align: center;
+         width:100%;
+         margin-left:0px;
+         margin-top:0px;
+    }
+    .acitivity-right li
+    {
+        display:list-item;
+    }
+    .statuswrap
+    {
+        width:100%;
+        margin:0px;
+    }
+    .activity-action-text
+    {
+        width:55%;
+    }
+}
